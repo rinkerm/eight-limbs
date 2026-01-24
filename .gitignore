@@ -1,0 +1,29 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Android (Gradle / local config / signing)
+android/.gradle/
+android/local.properties
+android/**/key.properties
+android/**/*.jks
+android/**/*.keystore
+
+# iOS (CocoaPods / generated Flutter files)
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/lau
