@@ -1,0 +1,47 @@
+{
+	"schemaVersion": "0.1",
+	"timingProfiles": [
+		{
+			"id": "fast",
+			"name": "Fast",
+			"afterMsByKey": {
+				"fast_punch": 300,
+				"heavy_punch": 500,
+				"block": 300,
+				"kick": 800,
+				"knee": 700,
+				"elbow": 500,
+				"fast_combo": 1000,
+				"heavy_combo": 1500
+			}
+		},
+		{
+			"id": "moderate",
+			"name": "Moderate",
+			"afterMsByKey": {
+				"fast_punch": 500,
+				"heavy_punch": 700,
+				"block": 500,
+				"kick": 1000,
+				"knee": 900,
+				"elbow": 700,
+				"fast_combo": 1200,
+				"heavy_combo": 1700
+			}
+		},
+		{
+			"id": "chill",
+			"name": "Chill",
+			"afterMsByKey": {
+				"fast_punch": 700,
+				"heavy_punch": 900,
+				"block": 700,
+				"kick": 1200,
+				"knee": 1100,
+				"elbow": 700,
+				"fast_combo": 1400,
+				"heavy_combo": 1900
+			}
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"schemaVersion": "0.1",
+	"categories" : [
+		{
+			"id": "basics",
+			"name": "Basic Punches",
+			"moves": [
+				{"id": "jab", "tts": ["Jab"], "timingKey": "fast_punch"},
+				{"id": "cross", "tts": ["Cross"], "timingKey": "fast_punch"},
+				{"id": "lead_hook", "tts": ["Lead hook"], "timingKey": "heavy_punch"},
+				{"id": "rear_hook", "tts": ["Rear hook"], "timingKey": "heavy_punch"},
+				{"id": "lead_overhand", "tts": ["Lead overhand"], "timingKey": "heavy_punch"},
+				{"id": "rear_overhand", "tts": ["Rear overhand"], "timingKey": "heavy_punch"},
+				{"id": "lead_uppercut", "tts": ["Lead uppercut"], "timingKey": "heavy_punch"},
+				{"id": "rear_uppercut", "tts": ["Rear uppercut"], "timingKey": "heavy_punch"}
+			]
+		},
+		{
+			"id": "defense",
+			"name": "Defense",
+			"moves": [
+				{"id": "block", "tts": ["Block"], "timingKey": "block"},
+				{"id": "check_kick", "tts": ["Check kick"], "timingKey": "block"},
+				{"id": "evade", "tts": ["Evade"], "timingKey": "block"},
+				{"id": "slip", "tts": ["Slip"], "timingKey": "block"}
+			]
+		},
+		{
+			"id": "elbows",
+			"name": "Elbows",
+			"moves": [
+				{"id": "lead_elbow", "tts": ["Lead elbow"], "timingKey": "elbow"},
+				{"id": "rear_elbow", "tts": ["Rear elbow"], "timingKey": "elbow"}
+			]
+		},
+		{
+			"id": "knees",
+			"name": "Knees",
+			"moves": [
+				{"id": "lead_knee", "tts": ["Lead knee"], "timingKey": "knee"},
+				{"id": "rear_knee", "tts": ["Rear knee"], "timingKey": "knee"}
+			]
+		},
+		{
+			"id": "kicks",
+			"name": "Kicks",
+			"moves": [
+				{"id": "lead_roundkick", "tts": ["Lead roundkick"], "timingKey": "kick"},
+				{"id": "rear_roundkick", "tts": ["Rear roundkick"], "timingKey": "kick"},
+				{"id": "switch_kick", "tts": ["Switch kick"], "timingKey": "kick"},
+				{"id": "lead_teep", "tts": ["Lead teep"], "timingKey": "kick"},
+				{"id": "rear_teep", "tts": ["Rear teep"], "timingKey": "kick"},
+				{"id": "switch_teep", "tts": ["Switch teep"], "timingKey": "kick"}
+			]
+		}
+	]
+}
