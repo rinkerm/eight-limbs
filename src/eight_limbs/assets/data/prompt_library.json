@@ -1,4 +1,4 @@
-{
+1{
 	"schemaVersion": "0.1",
 	"categories" : [
 		{
@@ -22,7 +22,9 @@
 				{"id": "block", "tts": ["Block"], "timingKey": "block"},
 				{"id": "check_kick", "tts": ["Check kick"], "timingKey": "block"},
 				{"id": "evade", "tts": ["Evade"], "timingKey": "block"},
-				{"id": "slip", "tts": ["Slip"], "timingKey": "block"}
+				{"id": "slip", "tts": ["Slip"], "timingKey": "block"},
+				{"id": "parry", "tts": ["Parry"], "timingKey": "block"}
+
 			]
 		},
 		{
@@ -30,15 +32,27 @@
 			"name": "Elbows",
 			"moves": [
 				{"id": "lead_elbow", "tts": ["Lead elbow"], "timingKey": "elbow"},
-				{"id": "rear_elbow", "tts": ["Rear elbow"], "timingKey": "elbow"}
+				{"id": "rear_elbow", "tts": ["Rear elbow"], "timingKey": "elbow"},
+				{"id": "lead_upper_elbow", "tts": ["Lead upper elbow"], "timingKey": "elbow"},
+				{"id": "rear_upper_elbow", "tts": ["Rear upper elbow"], "timingKey": "elbow"},
+				{"id": "lead_tomahawk_elbow", "tts": ["Lead tomahawk elbow"], "timingKey": "elbow"},
+				{"id": "rear_tomahawk_elbow", "tts": ["Rear tomahawk elbow"], "timingKey": "elbow"},
+				{"id": "lead_overhand_elbow", "tts": ["Lead overhand elbow"], "timingKey": "elbow"},
+				{"id": "rear_overhand_elbow", "tts": ["Rear overhand elbow"], "timingKey": "elbow"}
 			]
 		},
 		{
 			"id": "knees",
 			"name": "Knees",
 			"moves": [
-				{"id": "lead_knee", "tts": ["Lead knee"], "timingKey": "knee"},
-				{"id": "rear_knee", "tts": ["Rear knee"], "timingKey": "knee"}
+				{"id": "lead_straight_knee", "tts": ["Lead straight knee"], "timingKey": "knee"},
+				{"id": "rear_straight_knee", "tts": ["Rear straight knee"], "timingKey": "knee"},
+				{"id": "lead_diagonal_knee", "tts": ["Lead diagonal knee"], "timingKey": "knee"},
+				{"id": "rear_diagonal_knee", "tts": ["Rear diagonal knee"], "timingKey": "knee"},
+				{"id": "lead_horizontal_knee", "tts": ["Lead horizontal knee"], "timingKey": "knee"},
+				{"id": "rear_horizontal_knee", "tts": ["Rear horizontal knee"], "timingKey": "knee"},
+				{"id": "switch_knee", "tts": ["Switch knee"], "timingKey": "knee"},
+				{"id": "step_through_knee", "tts": ["Step through knee"], "timingKey": "knee"},
 			]
 		},
 		{
