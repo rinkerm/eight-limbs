@@ -1,10 +1,11 @@
 {
-	"schemaVersion": "0.1",
+	"schemaVersion": "0.2",
 	"timingProfiles": [
 		{
 			"id": "fast",
 			"name": "Fast",
 			"afterMsByKey": {
+				"footwork": 300,
 				"fast_punch": 300,
 				"heavy_punch": 500,
 				"block": 300,
@@ -19,6 +20,7 @@
 			"id": "moderate",
 			"name": "Moderate",
 			"afterMsByKey": {
+				"footwork": 450,
 				"fast_punch": 500,
 				"heavy_punch": 700,
 				"block": 500,
@@ -33,6 +35,7 @@
 			"id": "chill",
 			"name": "Chill",
 			"afterMsByKey": {
+				"footwork": 650,
 				"fast_punch": 700,
 				"heavy_punch": 900,
 				"block": 700,

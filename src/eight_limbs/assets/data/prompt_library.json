@@ -1,5 +1,5 @@
-1{
-	"schemaVersion": "0.1",
+{
+	"schemaVersion": "0.2",
 	"categories" : [
 		{
 			"id": "basics",
@@ -20,10 +20,11 @@
 			"name": "Defense",
 			"moves": [
 				{"id": "block", "tts": ["Block"], "timingKey": "block"},
-				{"id": "check_kick", "tts": ["Check kick"], "timingKey": "block"},
+				{"id": "check_kick", "tts": ["Check"], "timingKey": "block"},
 				{"id": "evade", "tts": ["Evade"], "timingKey": "block"},
 				{"id": "slip", "tts": ["Slip"], "timingKey": "block"},
-				{"id": "parry", "tts": ["Parry"], "timingKey": "block"}
+				{"id": "parry", "tts": ["Parry"], "timingKey": "block"},
+				{"id": "angle", "tts": ["Angle out"], "timingKey": "block"}	
 
 			]
 		},
@@ -37,8 +38,8 @@
 				{"id": "rear_upper_elbow", "tts": ["Rear upper elbow"], "timingKey": "elbow"},
 				{"id": "lead_tomahawk_elbow", "tts": ["Lead tomahawk elbow"], "timingKey": "elbow"},
 				{"id": "rear_tomahawk_elbow", "tts": ["Rear tomahawk elbow"], "timingKey": "elbow"},
-				{"id": "lead_overhand_elbow", "tts": ["Lead overhand elbow"], "timingKey": "elbow"},
-				{"id": "rear_overhand_elbow", "tts": ["Rear overhand elbow"], "timingKey": "elbow"}
+				{"id": "lead_diagonal_elbow", "tts": ["Lead diagonal elbow"], "timingKey": "elbow"},
+				{"id": "rear_diagonal_elbow", "tts": ["Rear diagonal elbow"], "timingKey": "elbow"}
 			]
 		},
 		{
@@ -52,19 +53,32 @@
 				{"id": "lead_horizontal_knee", "tts": ["Lead horizontal knee"], "timingKey": "knee"},
 				{"id": "rear_horizontal_knee", "tts": ["Rear horizontal knee"], "timingKey": "knee"},
 				{"id": "switch_knee", "tts": ["Switch knee"], "timingKey": "knee"},
-				{"id": "step_through_knee", "tts": ["Step through knee"], "timingKey": "knee"},
+				{"id": "step_through_knee", "tts": ["Step through knee"], "timingKey": "knee"}
 			]
 		},
 		{
 			"id": "kicks",
 			"name": "Kicks",
 			"moves": [
-				{"id": "lead_roundkick", "tts": ["Lead roundkick"], "timingKey": "kick"},
-				{"id": "rear_roundkick", "tts": ["Rear roundkick"], "timingKey": "kick"},
+				{"id": "lead_roundkick", "tts": ["Lead round kick"], "timingKey": "kick"},
+				{"id": "rear_roundkick", "tts": ["Rear round kick"], "timingKey": "kick"},
 				{"id": "switch_kick", "tts": ["Switch kick"], "timingKey": "kick"},
 				{"id": "lead_teep", "tts": ["Lead teep"], "timingKey": "kick"},
 				{"id": "rear_teep", "tts": ["Rear teep"], "timingKey": "kick"},
 				{"id": "switch_teep", "tts": ["Switch teep"], "timingKey": "kick"}
+			]
+		},
+		{
+			"id": "footwork",
+			"name": "Footwork",
+			"moves": [
+				{"id": "step_in", "tts": ["Step in"], "timingKey": "footwork"},
+				{"id": "step_out", "tts": ["Step out"], "timingKey": "footwork"},
+				{"id": "step_left", "tts": ["Step left"], "timingKey": "footwork"},
+				{"id": "step_right", "tts": ["Step right"], "timingKey": "footwork"},
+				{"id": "circle_left", "tts": ["Circle left"], "timingKey": "footwork"},
+				{"id": "circle_right", "tts": ["Circle right"], "timingKey": "footwork"},
+				{"id": "switch_stance", "tts": ["Switch stance"], "timingKey": "footwork"}
 			]
 		}
 	]
