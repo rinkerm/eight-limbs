@@ -14,10 +14,14 @@ class MainMenu extends StatelessWidget {
           spacing: 12,
           children: [
             ButtonWidget(
-              text: "Start Session",
+              text: "Start Session print",
               fontColor: Theme.of(context).colorScheme.onPrimary,
               backgroundColor: Theme.of(context).colorScheme.primary,
-              onClicked: () {},
+              onClicked: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('Pressed!')),
+                );
+                debugPrint('Pressed!');},
             ),
             ButtonWidget(
             text: "Settings",
